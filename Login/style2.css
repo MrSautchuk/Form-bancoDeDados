@@ -1,0 +1,94 @@
+
+
+.row {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+
+.btn-color{
+  background-color: #0e1c36;
+  color: #fff;
+  
+}
+
+.profile-image-pic{
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
+}
+
+.text-center {
+  margin: 5px;
+}
+
+.form-control {
+  height: 38px;
+  width: 300px;
+  margin: 5px;
+}
+
+.btn {
+  height: 38px;
+  width: 90px;
+  border-radius: 15%;
+  margin: 5px;
+}
+
+.cardbody-color{
+  background-color: #ebf2fa;
+}
+
+a{
+  text-decoration: none;
+}
+
+input {
+  border-radius: 10px;
+}
+
+/* Area de cadastro*/
+
+.card {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.card-body {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+}
+
+input {
+  border-radius: 10px;
+}
+
+.bot {
+  display: flex;
+  flex-direction: column;
+  min-height: max-content;
+  margin-bottom: 20px;
+}
+
+main {
+  flex: 1 1 0;
+  border: 0;
+}
+
+.i {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 8px 0 0 8px;
+}
